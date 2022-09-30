@@ -18,7 +18,7 @@ public class CreateInteger {
             operand[i] = random.nextInt(range);
         }
 
-        String formula = stitchingFormula(operatorCount, operand, operatorIndex);
+        String formula = stitchingFormula(operatorCount, operand, operatorIndex);//生成式子
 
         //计算结果
         Calculator calculator = new Calculator();
